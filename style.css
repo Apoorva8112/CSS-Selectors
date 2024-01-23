@@ -1,0 +1,95 @@
+li{
+    color: rgb(80, 4, 86);
+    font-family:monospace;
+ font-weight: 550;
+    font-size: larger;
+    font-style:italic;
+text-transform:lowercase;
+
+}
+body{
+    background-color: rgb(221, 241, 218);
+}
+#firstname{
+    color: blue;
+}
+
+.intro{
+    color: rgb(142, 15, 138);
+}
+.a1{
+    color:rgb(96, 21, 167);
+}
+p.a2{
+    color: rgb(177, 69, 69);
+}
+
+p.a3{
+    color: rgb(8, 166, 119);
+}
+
+*{
+    color:rgba(255, 0, 128, 0.41)
+}
+
+h2,p{
+ color:rgba(20, 145, 159, 0.968)
+}
+
+a[target] {
+    background-color: yellow;
+  }
+
+/* unvisited link */
+a:link {
+    color: rgb(243, 20, 20);
+  }
+  
+  visited link
+  a.hover:visited {
+    color: rgb(39, 177, 39);
+  }
+  
+  /* mouse over link */
+  a.hover:hover {
+    color: rgb(21, 1, 11);
+  }
+/*   
+  /* selected link */
+  a:active {
+    color: blue;
+    padding: 25px;
+    text-align: center;
+  } 
+/*   
+  div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  div:hover {
+    background-color: blue;
+  } */
+
+  div{
+    background-color: rgb(60, 113, 159);
+    color:rgb(14, 1, 1);
+    padding:25px;
+
+  }
+
+  div:hover{
+    background-color:beige;
+    color: blue;
+  }
+  p.intro::first-line{
+    color: rgba(228, 26, 26, 0.604);
+    font-weight:bold;
+    
+  }
+  p.intro{
+    color:yellow;
+    
+  }
